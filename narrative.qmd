@@ -1,0 +1,99 @@
+---
+title: "Diagnosis and Treatment of Disease X"
+format: html
+---
+## Disease X
+
+X is a respiratory tract infection that can result in considerable medical complications and hospitalization for high-risk persons (elderly with previous histories of respiratory conditions or cardiac diseases).
+
+## Population
+
+The population for this exercise consists entirely of high-risk individuals who also complain to clinicians of respiratory tract symptoms.
+
+```{r}
+#' Define attributes of persons (objects)
+#' UniqueIdentifier
+#' Presence of respiratory tract symptoms
+#' Presence of X
+#' Symptom of Fever
+#' Complications from untreated X
+#' Treated with M
+#' Tested with T
+#' Result of T
+#' High Risk for X
+#' Total Associated Cost
+```
+
+
+## Prevalence of X
+The prevalence of X (in this population) is 10%.
+
+## Complications from Untreated X
+
+The probability of complications from untreated X is 1%.
+
+The cost of complications from X is $9000 (largely due to hospitalization).
+
+## Fever Symptom
+Fever is symptomatic of numerous illnesses, including X.
+
+Approximately 75% of high-risk patients who complain to their clinicians of respiratory tract symptoms also have fever symptoms. 
+
+98% of patients who have X exhibit fever symptoms.
+
+### Treatment with M
+Treatment with medicinal drug M can reduce the risk of complications, but treatment must be started within 48 hours to provide any benefit.
+
+The cost of a full course of therapy with M is $100.
+
+Patients at high-risk from X will complain to their clinicians of respiratory tract symptoms within 48 hours of symptom onset.
+
+Thus, they would be candidates for treatment with M.
+
+When a patient with X is treated using M, the *duration* of illness is reduced by 30% and the *severity of symptoms* is reduced by 38%.  These combine to provide a return to usual activities *2 to 3 days earlier* than placebo recipients.
+
+The value of this benefit from M for the target population is estimated at $400. That is, the cost of not treating a patient who has X and who does not experience complications is $400.
+
+#### Side-effect of M
+There is a potential side-effect of M that requires a visit to a physician.
+
+The probability of such a reaction to M is 3%.
+
+The cost of the additional physician visit is $75.
+
+### Confirming Diagnosis of X
+Confirming the diagnosis of X by viral culture has not been practical for clinicians because it takes days to obtain a result.  Consequently, clinicians have had to judge the likelihood of X, as opposed to other respiratory tract illnesses, based on clinical probability. They then would initiate therapy based on their observations and experience.
+
+#### Rapid Test T
+To address this issue, a new rapid-diagnostic test T is being developed that provides results in a matter of minutes, instead of the days required for cultures.
+
+The appropriate use of this test, however, is yet undetermined.
+
+- The cost of T is $50.
+
+- The test sensitivity of T is 72%.
+
+- The test specificity of T is 90%.
+
+### Courses of Action
+There are three alternative courses of action for treating high-risk patients who complain of respiratory tract symptoms.
+
+- Screen all patients using diagnostic test T, then use medicine M to treat all and only those patients with positive test results.
+
+- Treat all patients with medicine M.
+
+- Treat no patients with medicine M.
+
+Add additional observations:
+
+Patient A reports respiratory tract symptoms.
+What is likelihood Patient A has X?
+
+Patient A also exhibits fever symptoms.
+What is the % likelihood Patient A has disease X?
+What is the expected total $ cost if Patient A is treated with M?
+What is the expected total $ cost if Patient A is given *no* treatment?
+
+
+## Running Code
+
