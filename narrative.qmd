@@ -84,15 +84,15 @@ There are three alternative courses of action for treating high-risk patients wh
 
 - Treat no patients with medicine M.
 
-Add additional observations:
+### Observations of specific patients
 
-Patient A reports respiratory tract symptoms.
-What is likelihood Patient A has X?
+#### Patient A reports respiratory tract symptoms.
+- What is likelihood Patient A has X?
 
-Patient A also exhibits fever symptoms.
-What is the % likelihood Patient A has disease X?
-What is the expected total $ cost if Patient A is treated with M?
-What is the expected total $ cost if Patient A is given *no* treatment?
+#### Patient A also exhibits fever symptoms.
+- What is the % likelihood Patient A has disease X?
+- What is the expected total $ cost if Patient A is treated with M?
+- What is the expected total $ cost if Patient A is given *no* treatment?
 
 
 ## Running Code
